@@ -1,1 +1,3 @@
- export function counter(){}
+ export function counter(){
+    return "hello";
+ }

@@ -1,0 +1,41 @@
+{
+  "name": "mirza_nordic",
+  "version": "0.0.1",
+  "description": "react js training",
+  "main": "index.js",
+  "scripts": {
+    "test": "react,js,html",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirza450/Mirza_nordic.git"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "html"
+  ],
+  "author": "Mirza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirza450/Mirza_nordic/issues"
+  },
+  "homepage": "https://github.com/mirza450/Mirza_nordic#readme",
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
+}

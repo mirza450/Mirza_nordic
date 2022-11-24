@@ -1,3 +1,10 @@
-import {counter } from "./app";
+import { counter } from  "./app";
 
-counter();
+const add=(a,b) =>a+b;
+console.log(add(1,3));
+console.log(counter());
+const HelloWorld={
+    firstName:"Mirza",
+    lastName:"Begg"
+}
+console.log(HelloWorld.firstName);  
