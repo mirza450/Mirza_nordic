@@ -4,7 +4,7 @@ const add=(a,b) =>a+b;
 console.log(add(1,3));
 console.log(counter());
 const HelloWorld={
-    firstName:"Mirza",
-    lastName:"Begg"
+firstName:"Mirza",
+lastName:"Begg"
 }
-console.log(HelloWorld.firstName);  
+console.log(HelloWorld.firstName);
