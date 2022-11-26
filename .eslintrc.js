@@ -17,5 +17,7 @@ module.exports = {
     'react',
   ],
   rules: {
+    "arrowParents" : "avoid"
+
   },
 };
