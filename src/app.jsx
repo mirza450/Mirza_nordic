@@ -1,33 +1,39 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const red1="red";
-const yellow1="yellow";
-const blue1 ="green";
-let counter=0;
-function App(){
-    return (
-    <>
+export default class App extends Component {
+    constructor(props) {
+      super(props);
+  
+      this.state = {
+        counter: 0,
+        todoItem: null,
+      };
+    }
+    increment = () => {
+        this.setState(({ counter }) => ({
+          counter: counter + 1,
+        }));
+      };
+      decrement = () => {
+        this.setState(({ counter }) => ({
+          counter: counter - 1,
+        }));
+      };
+
+    render() {
+    return(
     <div>
-    <h1 
-    style={{
-        backgroundColor:blue1,
-        color:yellow1,
-    }} >Hello React </h1>
-    <h1
-    style={{
-        backgroundColor:red1,
-        color:blue1
-    }}>Hello World !</h1>
-    </div>
-    <div>
-        <button type='button' onClick={()=>{counter=counter+1;
-        console.log(counter)}}>+</button>
-        <p >{counter}</p>
-        <button type='button' onClick={()=>{counter=counter-1;
-        console.log(counter)}} > - </button>
-    </div>
-    </>
-    );
+    <h1 id="heading">{greet}</h1>
+    <h2>{todoItem?.title}</h2>
+    <button type="button" onClick={this.increment}>
+      +
+    </button>
+    <p>{counter}</p>
+    <button type="button" onClick={this.decrement}>
+      -
+    </button>
+  </div>
+);
+}
 }
 
-export default App;

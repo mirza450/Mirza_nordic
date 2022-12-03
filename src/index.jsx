@@ -1,12 +1,9 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './app';
-
+import Todo from './todo';
+import './main.css';
 
 const container = document.getElementById('root');
-const root = createRoot(container); // createRoot(container!) if you use TypeScript
-root.render(<>
-<App name="Mirza" />
-<App name="Virat" />
-<App name="Alam"/> 
-</>);
+const root = createRoot(container);
+
+root.render(<Todo />);
