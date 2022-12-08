@@ -31,8 +31,9 @@ module.exports = {
       filename: 'index.html',
     }),
   ],
+
   devServer: {
-    port: 3000,
+    port: 8080,
     open: true,
   },
 };
