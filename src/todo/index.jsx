@@ -1,6 +1,8 @@
 import React, { Component,createRef } from 'react';
 import './todo.css';
-
+import TodoFilter from './todoFilter';
+import TodoForm from './todoForm';
+import TodoList from './todoList';
 export default class Index extends Component {
   state = { todoList: [], filterType: 'all' };
 
